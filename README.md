@@ -22,7 +22,7 @@ La primer prueba del proxy reverso la hice creando el archivo directamente en "s
 
 ## Formatear volumen
 
-1. Identificar el volumen agregado con el comando *** lsblk *** 
+1. Identificar el volumen agregado con el comando ***lsblk***
 
 ```
 alejandro@ubuntu:~$ lsblk
