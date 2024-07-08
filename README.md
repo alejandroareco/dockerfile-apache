@@ -4,14 +4,14 @@
 **Alumno:** Alejandro Areco
 **Fecha:** 10/07/2024
 
-## Agregar Volumen desde VirtualBox
+## Agregar Volumen desde VirtualBox##
 
 1. Seleccionar la VM a utilizar
 2. Ir a Configuracion -> Almacenamiento
 3. Seleccionar "Controlador SATA"
 4. Agregar volumen a gusto (Para este TP, se agrego un volumen de 500 MB)
 
-## Formatear volumen 
+## Formatear volumen
 
 1. Identificar el volumen agregado con el comando *** lsblk *** 
 
@@ -89,9 +89,9 @@ alejandro@ubuntu:~$ sudo vim /etc/fstab
 /dev/sdb  /mnt/tp-final/  ext4  defaults  0  2
 ```
 
-## Clonar repositorio y crear rama "develop"##
+## Clonar repositorio y crear rama "develop"
 
-1. Utilizar 'git clone' para clona repositorio
+1. Utilizar 'git clone' para clonar repositorio
 
 ```
 alejandro@ubuntu:~$ git clone git@gitlab.com:alejandro.areco/final-infraestructura.git
@@ -138,41 +138,7 @@ alejandro@ubuntu:~/final-infraestructura$ git checkout main
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
 ```
-3. Crear rama "develop"
-
-```
-alejandro@ubuntu:~/final-infraestructura$ git checkout -b develop
-Switched to a new branch 'develop'
-```
-
-4. Pushear nueva rama al repositorio remoto
-```
-alejandro@ubuntu:~/final-infraestructura$ git push origin develop
-Enter passphrase for key '/home/alejandro/.ssh/id_ed25519':
-Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
-remote:
-remote: To create a merge request for develop, visit:
-remote:   https://gitlab.com/alejandro.areco/final-infraestructura/-/merge_requests/new?merge_request%5Bsource_branch%5D=develop
-remote:
-To gitlab.com:alejandro.areco/final-infraestructura.git
- * [new branch]      develop -> develop
-```
-
-5. Verificar correcta creacion de rama
-```
-alejandro@ubuntu:~/final-infraestructura$ git branch
-* develop
-  main
-```
-
-6. Pasar de 'develop' a 'main'
-```
-alejandro@ubuntu:~/final-infraestructura$ git checkout main
-Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
-```
->[!NOTE]
->La rama 'develop' contiene archivos genericos "index.html" y "proxy-reverso.conf". Las versiones finales de los mismos se encuentran en la rama 'main'
+*La rama 'develop' contiene archivos genericos "index.html" y "proxy-reverso.conf". Las versiones finales de los mismos se encuentran en la rama 'main'*
 
 ```
 alejandro@ubuntu:~/final-infraestructura$ git checkout develop
@@ -204,7 +170,7 @@ Status: Downloaded newer image for ubuntu/apache2:latest
 alejandro@ubuntu:~/final-infraestructura$ sudo cp index.html /mnt/tp-final/
 alejandro@ubuntu:~/final-infraestructura$ ls /mnt/tp-final/
 index.html  lost+found
-
+```
 
 3. Editar archivo index.html a gusto
 ```
