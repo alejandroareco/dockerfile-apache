@@ -1,10 +1,12 @@
 # FINAL-INFRAESTRUCTURA
 
 **Profesor:** Sergio Pernas
+
 **Alumno:** Alejandro Areco
+
 **Fecha:** 10/07/2024
 
-## Agregar Volumen desde VirtualBox##
+## Agregar Volumen desde VirtualBox
 
 1. Seleccionar la VM a utilizar
 2. Ir a Configuracion -> Almacenamiento
