@@ -20,6 +20,8 @@ La primer prueba del proxy reverso la hice creando el archivo directamente en "s
 3. Seleccionar "Controlador SATA"
 4. Agregar volumen a gusto (Para este TP, se agrego un volumen de 500 MB)
 
+***NOTA***: El volumen agregado para este TP es **sdb**
+
 ## Formatear volumen
 
 1. Identificar el volumen agregado con el comando ***lsblk***
