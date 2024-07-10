@@ -11,7 +11,6 @@
 Para este TP, levante una Virtual Machine en VirtualBox con imagen Ubuntu. Tiene una ip fija (192.168.0.240), la cual va a ser utilizada como server backend.
 VirtualBox corre en una MacBook Pro, por lo que las modificaciones locales se realizaron con comandos y directorios correspondientes a MacOS.
 La imagen Docker que contiene Apache utiliza el puerto 8081 ya que al realizar las pruebas, entraba en conflicto con Nginx corriendo en el puerto 80. Al modificar el puerto en Docker, pude realizar las configuraciones y pruebas correctamente.
-La primer prueba del proxy reverso la hice creando el archivo directamente en "sites-enabled" pero no lograba hacerlo funcionar, por lo que cree el archivo en "sites-available", cree un enlace simbolico y pude hacerlo funcionar. 
 
 ## Agregar Volumen desde VirtualBox
 
