@@ -1,11 +1,3 @@
-# FINAL-INFRAESTRUCTURA
-
-**Profesor:** Sergio Pernas
-
-**Alumno:** Alejandro Areco
-
-**Fecha:** 10/07/2024
-
 ## Escenario planteado
 
 Para este TP, levante una Virtual Machine en VirtualBox con imagen Ubuntu. Tiene una ip fija (192.168.0.240), la cual va a ser utilizada como server backend.
